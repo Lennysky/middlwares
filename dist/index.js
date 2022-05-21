@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
 const body_parser_1 = __importDefault(require("body-parser"));
-const products_router_1 = require("./products-router");
+const products_router_1 = require("./routs/products-router");
 // создать экспресс-приложение
 const app = (0, express_1.default)();
 const corsMiddleware = (0, cors_1.default)();

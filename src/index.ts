@@ -1,7 +1,7 @@
 import express, {NextFunction, Request, Response} from 'express'
 import cors from 'cors'
 import bodyParser from 'body-parser'
-import {productsRouter} from "./products-router";
+import {productsRouter} from "./routs/products-router";
 
 // создать экспресс-приложение
 const app = express()
